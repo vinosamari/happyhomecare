@@ -19,7 +19,7 @@
           class="white--text"
         >
           <v-list-item-action>
-            <v-icon color="purple">{{ item.icon }}</v-icon>
+            <v-icon :color="!$vuetify.breakpoint.mobile ? 'purple' : 'purple lighten-4'">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title class="font-weight-medium">{{ item.title }}</v-list-item-title>
@@ -87,14 +87,9 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-home',
           title: 'Home',
           to: '/'
-        },
-        {
-          icon: 'mdi-gift',
-          title: 'Donate',
-          to: '/donate'
         },
         {
           icon: 'mdi-account-multiple',
@@ -105,6 +100,11 @@ export default {
           icon: 'mdi-face-agent',
           title: 'Contact us',
           to: '/contact'
+        },
+        {
+          icon: 'mdi-gift',
+          title: 'Donate',
+          to: '/donate'
         },
 
       ],
