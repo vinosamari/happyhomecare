@@ -10,7 +10,7 @@ export default {
         {
           name: "Kwabena Mensah Ayivor",
           role: "Co-founder",
-          image: "https://cdn.vuetifyjs.com/images/profiles/marcus.jpg",
+          image: require("../assets/img/istockphoto-481193816-170667a.jpg"),
         },
         {
           name: "Akua Ama Serwah Boateng",
@@ -20,7 +20,7 @@ export default {
         {
           name: "Kofi Asante Osei",
           role: "Case Manager",
-          image: require("../assets/img/istockphoto-481193816-170667a.jpg"),
+          image: "https://cdn.vuetifyjs.com/images/profiles/marcus.jpg",
         },
         {
           name: "Esi Darko-Amponsah",

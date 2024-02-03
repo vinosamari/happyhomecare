@@ -92,11 +92,6 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-weight-lifter',
-          title: 'Health and Wellness',
-          to: '/health-and-wellness'
-        },
-        {
           icon: 'mdi-gift',
           title: 'Donate',
           to: '/donate'

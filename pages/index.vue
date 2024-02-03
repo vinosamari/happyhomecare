@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12">
-      <img src="../assets/img/logo.png" alt="logo" width="100%" class="mx-auto" height="320"/>
+    <v-col cols="12" align-self="center">
+      <img src="../assets/img/logo.png" alt="logo" :width="$vuetify.breakpoint.mobile ? '100%' : '50%'" class="mx-auto" height="320"/>
       <v-carousel :show-arrows="false" cycle height="70vh" hide-delimiter-background>
         <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src">
           <v-container fill-height fluid>
@@ -41,19 +41,19 @@ export default {
     return {
       items: [
         {
-          src: require('../assets/img/IMG1.jpg'),
+          src: require('../assets/img/IMG8.jpg'),
           text: "Caring Hearts, Compassionate Care: Where Elders Become Family."
         },
         {
-          src: require('../assets/img/IMG2.jpg'),
+          src: require('../assets/img/IMG7.png'),
           text: "Nurturing Smiles, Creating Bonds: Your Trusted Elderly Care Partner."
         },
         {
-          src: require('../assets/img/IMG3.jpg'),
+          src: require('../assets/img/IMG6.jpg'),
           text: "Dignity in Every Detail: Providing Exceptional Care for Seniors.\""
         },
         {
-          src: require('../assets/img/IMG4.webp'),
+          src: require('../assets/img/IMG9.jpg'),
           text: "Cherishing Moments, Embracing Lives: A Home for Elderly Happiness."
         },
         {
