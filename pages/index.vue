@@ -45,11 +45,11 @@ export default {
           text: "Caring Hearts, Compassionate Care: Where Elders Become Family."
         },
         {
-          src: require('../assets/img/IMG7.png'),
+          src: require('../assets/img/IMG10.jpeg'),
           text: "Nurturing Smiles, Creating Bonds: Your Trusted Elderly Care Partner."
         },
         {
-          src: require('../assets/img/IMG6.jpg'),
+          src: require('../assets/img/IMG11.jpeg'),
           text: "Dignity in Every Detail: Providing Exceptional Care for Seniors.\""
         },
         {
