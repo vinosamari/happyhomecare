@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Happy Home Care - Your trusted partner for compassionate elderly care. We prioritize comfort and well-being, providing personalized services to make every day a joyful and fulfilling experience' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
