@@ -92,19 +92,9 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-head-snowflake',
-          title: 'Mental Health',
-          to: '/mental-health'
-        },
-        {
           icon: 'mdi-weight-lifter',
           title: 'Health and Wellness',
-          to: '/wellness'
-        },
-        {
-          icon: 'mdi-human-male-female-child',
-          title: 'Relationships',
-          to: '/relationships'
+          to: '/health-and-wellness'
         },
         {
           icon: 'mdi-gift',

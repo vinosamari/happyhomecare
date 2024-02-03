@@ -33,7 +33,7 @@ export default {
             size="164"
             tile
           >
-            <v-img src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"></v-img>
+            <v-img :src="member.image"></v-img>
           </v-avatar>
         </v-col>
         <v-col class="py-0">

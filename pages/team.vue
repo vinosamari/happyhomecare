@@ -10,22 +10,27 @@ export default {
         {
           name: "Kwabena Mensah Ayivor",
           role: "Co-founder",
-          image: "https://images.unsplash.com/photo-1519141266130-208390729392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          image: "https://cdn.vuetifyjs.com/images/profiles/marcus.jpg",
         },
         {
           name: "Akua Ama Serwah Boateng",
-          role: "Co-founder",
-          image: "https://images.unsplash.com/photo-1519141266130-208390729392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          role: "Administrator or Operations Manager",
+          image: require("../assets/img/ghana bea67.png"),
         },
         {
           name: "Kofi Asante Osei",
-          role: "Co-founder",
-          image: "https://images.unsplash.com/photo-1519141266130-208390729392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          role: "Case Manager",
+          image: require("../assets/img/istockphoto-481193816-170667a.jpg"),
         },
         {
-          name: "Abena Yaa Darko-Amponsah",
-          role: "Co-founder",
-          image: "https://images.unsplash.com/photo-1519141266130-208390729392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          name: "Esi Darko-Amponsah",
+          role: "Registered Nurse (RN)",
+          image: require("../assets/img/nurses_corner1-20200827-0016.jpg"),
+        },
+        {
+          name: "Emmanuel Kuma",
+          role: "Companion Care Specialist",
+          image: require("../assets/img/african-amrican-male-nurse-815844.jpeg"),
         },
 
       ]
